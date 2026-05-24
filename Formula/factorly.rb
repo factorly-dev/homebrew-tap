@@ -3,7 +3,7 @@
 class Factorly < Formula
   desc "Postman for developers building AI agent toolchains"
   homepage "https://github.com/factorly-dev/factorly"
-  version "0.15.1"
+  version "0.16.0"
   license "GPL-3.0-or-later"
 
   livecheck do
@@ -14,22 +14,22 @@ class Factorly < Formula
   on_macos do
     on_arm do
       url "https://github.com/factorly-dev/factorly/releases/download/v#{version}/factorly-#{version}-darwin-arm64"
-      sha256 "fbeb5e3dcda8aa129c2d839c9dd666f5f6be87bcbcd4e81ac049235243bcdb0f"
+      sha256 "cf833e872d076f89591ce97589d71b8b6b112b978395b7e843d50bd45350aa08"
     end
     on_intel do
       url "https://github.com/factorly-dev/factorly/releases/download/v#{version}/factorly-#{version}-darwin-amd64"
-      sha256 "6554f7defc7fe7719be87a56c20b8f9138bae435d49d692020bef38037758f9b"
+      sha256 "03af1c4cc44171da02b7345b8b345f700b5d32d5a1563afef651619d02fe86ee"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/factorly-dev/factorly/releases/download/v#{version}/factorly-#{version}-linux-arm64"
-      sha256 "0d6c90ac42408562db022930078e8d5852a9d1e9872624a8b534aa22dd3f45a4"
+      sha256 "417dda3aadd8c01e5bd2ce2dd451b7623bdea4a041f188e1d24e151f762b910e"
     end
     on_intel do
       url "https://github.com/factorly-dev/factorly/releases/download/v#{version}/factorly-#{version}-linux-amd64"
-      sha256 "3fda62bba2c12280a748e1a73aa967406f6f90d6f30ee4cad7a2b044e5049beb"
+      sha256 "f9cfdb1ce0b7fbd589a802424879be7dd8b8abae5a2e9add08d72170604d79a9"
     end
   end
 
